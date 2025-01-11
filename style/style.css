@@ -16,8 +16,13 @@ button.btn-primary {
       border-radius: 8px;
       padding: 12px 13px;
       margin-top: 33px;
-}
 
+      transition: .5s;
+}
+.btn-primary:hover {
+      background: red;
+      border: none;
+}
 
 /* header section */
 
@@ -42,8 +47,12 @@ nav .btn-out-primary {
       border: 2px solid #006A50;
       border-radius: 8px;
       margin-right: -281px;
+      transition: .5s;
 }
-
+.btn-out-primary:hover{
+      background: #006A50;
+      color: #fff;
+}
 
 /* banner section */
 #banner{
@@ -112,6 +121,10 @@ p.future-sub-title {
       background: #5490F5;
       border: none;
       margin-top: 47px;
+}
+.card-box .btn-primary:hover {
+      background: red;
+      border: none;
 }
 .card-text {
       padding: 10px 22px;
@@ -246,9 +259,18 @@ h2.donate-item {
       border-radius: 17px;
       color: rgba(14, 14, 14, 0.8);
       border: 1px solid rgba(14, 14, 14, 0.15);
+      transition: .5s;
+}
+h2.donate-item:hover {
+      background: rgba(255, 33, 73, 0.4);
+      color: #fff;
 }
 h2.donate-item.bga {
       background: rgb(198, 228, 214);
+}
+h2.donate-item.bga:hover {
+      background: #fff;
+      color: #000;
 }
 .donate-type-amount input[type="text"] {
       width: 908px;
@@ -272,4 +294,85 @@ h2.donate-item.bga {
 }
 .donate-button {
       text-align: center;
+}
+
+
+
+
+/* subscribe section */
+#subscribe{
+      padding: 25px 88px;
+      width: 1419px;
+      
+}
+#subscribe .container{
+      padding: 102px 80px;
+      background: #C6E4D6;
+      width: 1100px;
+      margin: 0 auto;
+      border-radius: 20px;
+      text-align: center;
+}
+h2.subscribe-title {
+      font-size: 36px;
+      padding: 12px 0;
+}
+p.subscribe-sub-title {
+      color: rgba(14, 14, 14, 0.7);
+      font-size: 13px;
+      padding: 0 275px;
+}
+
+/* input and button */
+label {
+      position: relative;
+}
+.subscribe-inp input[type="text"] {
+      border: none;
+      padding: 15px 231px;
+      border-radius: 6px 0 0 6px;
+}
+button.btn-primary.inp-btn {
+      position: absolute;
+      /* top: -19px; */
+      right: -80px;
+      bottom: -15px;
+      padding: 14px 44px;
+      border-radius: 0 6px 6px 0;
+}
+
+.subscribe-inp {
+      margin-top: 26px;
+}
+p.subc-msg {
+      font-size: 13px;
+      color: rgba(14, 14, 14, 0.7);
+      margin-top: 27px;
+}
+
+
+
+/* footer section */
+footer {
+      background: #fff;
+      padding: 50px 150px;
+      text-align: center;
+}
+footer h3 {
+      font-size: 30px;
+      padding: 25px;
+}
+.social img {
+      width: 25px;
+      height: 25px;
+      margin-right: 6px;
+}
+.social {
+      margin-top: 25px;
+}
+hr {
+      border: 1px solid rgba(14, 14, 14, 0.1);
+      width: 819px;
+      /* height: 1px; */
+      margin-left: 191px;
 }
